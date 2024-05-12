@@ -1,0 +1,36 @@
+ 
+    <!-- Sino puede ser utilizando Grid con .CSS para las propiedades-->
+    <section class="container">
+        <div class="item header">Header</div>
+        <div class="item left">Left</div>
+        <div class="item content">Content</div>
+        <div class="item footer">Footer</div>
+    </section>
+    <!-- El CSS iría en otro archivo vinculado luego -->
+    .containter{
+        display: grid;
+        grid-template: 120px 1fr 120px / 400px 1fr;
+        grid-template-areas: "header header"
+                             "left content"
+                             "footer footer";
+        grid-gap: 20px;
+        height: 100vh;
+    }
+    .header{
+        grid-area: header;
+    }
+    .left{
+        grid-area: left;
+    }
+    .content{
+        grid-area: content;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    .item{
+        background-color: pink;
+        padding: 10px;
+        color: black;
+        border-radius: 10px;
+    }
