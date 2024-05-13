@@ -20,3 +20,13 @@ p {
     color: white;
     line-height: 1.6;
 }
+
+footer {
+    background-color: #ebb8dd; 
+    color: #000000;
+    text-align: center;
+    padding: 3px;
+    position: botoom;
+    width: 100%;
+    bottom: 0;
+}
