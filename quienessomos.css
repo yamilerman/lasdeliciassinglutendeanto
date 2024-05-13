@@ -1,10 +1,3 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 10;
-    padding: 20;
-    background-image: url(../img/fond.png);
-}
 .container {
     max-width: 800px;
     margin: 20px auto;

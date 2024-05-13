@@ -1,3 +1,16 @@
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url(../img/fond.png);
+  background-attachment: fixed;
+  size: cover;
+  position: top;
+  background-repeat: no-repeat;
+}
+
+
 .menu {
   text-align: right;
   position: relative;
@@ -26,7 +39,8 @@ footer {
   color: #000000;
   text-align: center;
   padding: 3px;
-  position: botoom;
+  position: relative;
   width: 100%;
   bottom: 0;
+  margin-top: auto;
 }

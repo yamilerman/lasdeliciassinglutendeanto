@@ -4,17 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  height: 100%;
-  width: 100%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-image: url(../img/fond.png);
-  background-attachment: fixed;
-  size: cover;
-  position: top;
-  background-repeat: no-repeat;
-}
 
 header {
   font-size: 25px;
