@@ -1,38 +1,32 @@
 .menu {
-    text-align:right;
-    position: relative;
-    top: 0px;
-    background:none;
-    padding: 1rem;
+  text-align: right;
+  position: relative;
+  top: 0px;
+  background: none;
+  padding: 1rem;
 }
 .menu li {
-    display: inline-block;
-
+  display: inline-block;
 }
 .menu a {
-    background-color:#ebb8dd;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
-    padding:10px;
-    text-decoration: none;
-    color:  #000000;;
-   
-    border-radius: 15px;
-}
+  background-color: #ebb8dd;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-decoration: none;
+  color: #000000;
 
+  border-radius: 15px;
+}
 .menu a:hover {
-    background-color: #cbc6e2;
+  background-color: #cbc6e2;
 }
-
-
-
-
 footer {
-    background-color: #ebb8dd; 
-    color: #000000;
-    text-align: center;
-    padding: 3px;
-    position: botoom;
-    width: 100%;
-    bottom: 0;
+  background-color: #ebb8dd;
+  color: #000000;
+  text-align: center;
+  padding: 3px;
+  position: botoom;
+  width: 100%;
+  bottom: 0;
 }
