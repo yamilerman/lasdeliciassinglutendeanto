@@ -2,10 +2,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f076b3;
+  background-image: url(../img/fond.png);
 }
 form {
-  background-color: #ffb3df;
+  background-color: #ebb8dd;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -17,7 +17,7 @@ input[type="email"],
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #fa1aa4;
+  border: 1px solid #000000;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -25,22 +25,21 @@ textarea {
   resize: vertical;
 }
 input[type="submit"] {
-  background-color: #333;
-  color: white;
+  background-color: #cbc6e2;
+  color: #000000;
   padding: 12px 20px;
-  border: none;
+  border: 1px solid #000000;
   border-radius: 4px;
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background-color: #f88ac1;
-  color: #2dfd5a;
+  background-color: #ffffff;
 }
 p {
   font-size: x-large;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
-  background-color: #ffb3df;
+  background-color: #ebb8dd;
 }
 
 footer {

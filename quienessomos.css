@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 10;
     padding: 20;
-    background-color: #f179b5;
+    background-color: #ebb8dd;
 }
 .container {
     max-width: 800px;
@@ -11,18 +11,18 @@ body {
     padding: 0 20px;
 }
 h2 {
-    color: #4e0344;
+    color: #000000;
     text-align: center;
     margin-bottom: 20px;
     padding: 10px;
 }
 p {
-    color: white;
+    color: #000000;
     line-height: 1.6;
 }
 
 footer {
-    background-color: #ebb8dd; 
+    background-color: #cbc6e2; 
     color: #000000;
     text-align: center;
     padding: 3px;

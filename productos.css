@@ -2,6 +2,7 @@
             font-family: Arial, sans-serif;
             margin: 20;
             padding: 0;
+            background-image: url(../img/fond.png);
         }
         .product {
             width: 30%;
