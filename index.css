@@ -26,7 +26,6 @@ img{
 .menu {
     text-align:right;
     position: relative;
-
     top: 0px;
     background:none;
     padding: 1rem;
@@ -41,13 +40,13 @@ img{
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
     padding:10px;
     text-decoration: none;
-    color: white;
-    border: 1px solid rgb(10, 10, 10);
+    color:  #000000;;
+    border: 1px solid #ebb8dd;
     border-radius: 15px;
 }
 
 .menu a:hover {
-    background-color: hsla(315, 2%, 36%, 0.81);
+    background-color: #ebb8dd;
 }
 .carrousel{
     width: 100%;
@@ -117,8 +116,8 @@ background-color: aqua;
 }
 
 footer {
-    background-color: #535151; 
-    color: rgb(253, 251, 251);
+    background-color: #ebb8dd; 
+    color: #000000;
     text-align: center;
     padding: 3px;
     position: botoom;
