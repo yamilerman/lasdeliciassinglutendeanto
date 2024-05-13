@@ -23,31 +23,7 @@ img{
     width: 100%;
     height: 300px;
 }
-.menu {
-    text-align:right;
-    position: relative;
-    top: 0px;
-    background:none;
-    padding: 1rem;
-}
-.menu li {
-    display: inline-block;
 
-}
-.menu a {
-    background-color:transparent;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
-    padding:10px;
-    text-decoration: none;
-    color:  #000000;;
-    border: 1px solid #ebb8dd;
-    border-radius: 15px;
-}
-
-.menu a:hover {
-    background-color: #ebb8dd;
-}
 .carrousel{
     width: 100%;
 }
@@ -115,12 +91,4 @@ background-color: aqua;
     color: #ffffff;
 }
 
-footer {
-    background-color: #ebb8dd; 
-    color: #000000;
-    text-align: center;
-    padding: 3px;
-    position: botoom;
-    width: 100%;
-    bottom: 0;
-}
+
