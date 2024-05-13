@@ -10,18 +10,18 @@
 
 }
 .menu a {
-    background-color:transparent;
+    background-color:#ebb8dd;
     backdrop-filter: blur(5px);
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
     padding:10px;
     text-decoration: none;
     color:  #000000;;
-    border: 1px solid #ebb8dd;
+   
     border-radius: 15px;
 }
 
 .menu a:hover {
-    background-color: #ebb8dd;
+    background-color: #cbc6e2;
 }
 
 

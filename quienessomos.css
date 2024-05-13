@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 10;
     padding: 20;
-    background-color: #ebb8dd;
+    background-image: url(../img/fond.png);
 }
 .container {
     max-width: 800px;
@@ -21,12 +21,4 @@ p {
     line-height: 1.6;
 }
 
-footer {
-    background-color: #cbc6e2; 
-    color: #000000;
-    text-align: center;
-    padding: 3px;
-    position: botoom;
-    width: 100%;
-    bottom: 0;
-}
+
