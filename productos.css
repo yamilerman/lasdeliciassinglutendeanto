@@ -50,6 +50,27 @@
 .add-to-cart:hover {
   background-color: #45a049;
 }
+
+.fab {
+  padding: 2%;
+  font-size: 100%;
+  width: 40%;
+  text-align: center;
+  text-decoration: none;
+  margin: 1% 1%;
+  border-radius: 5%;
+  float: right;
+  }
+  
+  .fab:hover {
+  opacity: 0.7;
+  }
+  
+  .fa-whatsapp {
+  background: #45a049;
+  color: white;
+  }
+
 .clearfix::after {
   content: "";
   display: table;

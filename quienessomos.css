@@ -36,6 +36,10 @@ ul li {
   margin-bottom: 5px;
 }
 
+#iframe {
+  text-align: center;
+}
+
 /* Enlaces */
 a {
   color: #007bff;
