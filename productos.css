@@ -1,22 +1,40 @@
-
+.body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.h1{
+  align-text: center;
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
 .product {
   width: 30%;
   background: #f3a5c9;
-  padding: 10px;
-  border: 1px solid #fc6aae;
-  margin: 20px;
-  float: left;
+  padding: 3%;
+  border: 1% solid #fc6aae;
+  margin: 5%;
+  /* float: left; */
   box-sizing: content-box;
 }
 .product img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
+  align-self: center;
 }
 .product h2 {
   margin-top: 10;
+  text-align: center; 
 }
 .product p {
   margin-bottom: 30px;
+  text-align: center;
 }
 .add-to-cart {
   background-color: #4caf50;
@@ -35,10 +53,9 @@
   display: table;
   clear: both;
 }
-main {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+
+
+#footer{
+  position: fixed;
+  bottom: 0;
 }
