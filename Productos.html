@@ -7,7 +7,9 @@
     <title>Productos</title>
     <link rel="stylesheet" href="productos.css">
     <link rel="stylesheet" href="stylegeneral.css">
-    
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 </head>
 <body>
     <div class="menu">
@@ -20,7 +22,9 @@
             </ul>
         </nav>
     </div>
-    <h1>Tienda de Productos</h1>
+    <div class="titulo">
+        <h1>Tienda de Productos</h1>
+    </div>
     <div class="box">
         <div class="product">
             <a href="img/Tartas.jpeg"></a>
@@ -98,7 +102,7 @@
             <img src="img/TortasFritas.jpeg" alt="Producto 10">
             <h2>Tortas Fritas por docena</h2>
             <p>Precio: $8000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Producto 10', 8,)"> Agregar al Carrito</button>
+            <button class="add-to-cart" onclick="addToCart('Producto 10', 8000.00)"> Agregar al Carrito</button>
         </div>
     </div>
 </div>
@@ -107,7 +111,8 @@
     
 <!-- Inormación al final de página -->
     <footer id="footer">© Todos los derechos reservados 2024.</footer>
-
+   
     <script src="scripts.js"></script>
+ 
 </body>
 </html>
