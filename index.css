@@ -2,17 +2,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+  }
 
 
-header {
-  font-size: 25px;
-  height: 100%;
-  width: 100%;
-}
-img {
+.itemCarrouselTarjeta img {
   width: 100%;
   height: 300px;
+  box-shadow: 0 0 50px rgba(82, 4, 56, 0.274);
 }
 .carrousel {
   width: 100%;
@@ -44,15 +40,7 @@ img {
   justify-content: space-between;
   padding: 20px;
 }
-#itemCarrousel-1 {
-  background-color: blue;
-}
-#itemCarrousel-2 {
-  background-color: aqua;
-}
-#itemCarrousel-3 {
-  background-color: rgb(146, 141, 141);
-}
+
 .itemCarrouselArrows > i:hover {
   cursor: pointer;
 }
@@ -68,5 +56,34 @@ img {
   color: rgb(29, 1, 1);
 }
 .itemCarrouselArrows > a > i {
-  color: #ffffff;
+  color: #383636;
+}
+.conte{
+  margin-top: 50px;
+}
+
+.conte img{
+  width: 300px;
+  height: 280px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50px;
+  border: 8px solid #dfa8cdc1;
+  
+}
+.conte img:hover{
+  cursor: pointer;
+  background-color: hsla(315, 71%, 27%, 0.81);
+}
+.conte h3{
+    font-size: 25px;
+    text-align: top;
+    text-align: center;
+    color: #544c53;
+    background-color: #ebb8dd;;
+    width: 50%;
+    align-items: center;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    
 }
