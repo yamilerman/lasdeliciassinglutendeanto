@@ -16,28 +16,37 @@
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Productos.html">Productos</a></li>
             <li><a href="Quienessomos.html">Nosotros</a></li>
-            <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </div>
     <p>Para ponerte en contacto con nosotros completa este formulario</p>
-    <form action="/submit_contact_form" method="post">
+    <form id="formulario"name="formulario"  action="https://formsubmit.co/lasdeliciassinglutendeanto@gmail.com" method="post">
         <label for="name">Nombre:</label>
-        <input type="text" id="name" name="name" placeholder="Tu nombre.." required>
+        <input type="text" id="name" name="name" maxlength="30" placeholder="Tu nombre.." >
     
         <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" placeholder="Tu correo electrónico.." required>
-    
+        <input type="email" id="email" name="email" placeholder="Tu correo electrónico..">
+
+        <label for="telefono">Numero de telefono</label>
+        <input type="tel" name="telefono" placeholder="Tu numero de teléfono.."><br>
+
+        <br>Desea recibir la respuesta por: 
+        <br>
+        <input type="radio" name="respuesta" id="tel" value="telefono"> Teléfono
+        <input type="radio" name="respuesta" id="mail" value="email"> Email
+        <br>
+        <br>
         <label for="subject">Asunto:</label>
-        <input type="text" id="subject" name="subject" placeholder="Asunto.." required>
+        <input type="text" id="subject" name="subject" placeholder="Asunto.." >
     
         <label for="message">Mensaje:</label>
-        <textarea id="message" name="message" placeholder="Escribe tu mensaje.." style="height:200px" required></textarea>
+        <textarea id="message" name="message" placeholder="Escribe tu mensaje.." style="height:200px" ></textarea>
     
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar" id="btn">
     </form>
 
     <!-- Inormación al final de página -->
     <footer>© Todos los derechos reservados 2024.</footer>
 </body>
+<script src="contacto.js"></script>
 </html>
