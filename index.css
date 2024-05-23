@@ -1,5 +1,12 @@
+.productosIndex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .conte{
   margin-top: 50px;
+  
 }
 
 .conte img{

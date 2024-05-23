@@ -67,18 +67,17 @@
         </nav>
     </div>
 </header>
-<main>
+<main class="productosMain">
     
         <h1 class="tiendaDeProductos">Tienda de Productos</h1>
     
-    <div class="box">
+    <section class="listaCompletaProductos">
         <div class="product" id="tarta">
             <a href="img/Tartas.jpeg" ></a>
             <img src="img/Tartas.jpeg" alt="Tartas">
             <h2>Tarta individual x3</h2>
             <p>Precio: $12,800.00</p>
-            <!-- <button class="pedido" onclick="realizarPedido('Tartas','12,800')">Realizar pedido</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)"> Agregar al Carrito </button>            
         </div>
 
         <div class="product" id="fideos">
@@ -86,8 +85,7 @@
             <img src="img/Fideos.jpeg" alt="Producto 4">
             <h2>Fideos Frescos por 1kg</h2>
             <p>Precio: $8,000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 2', 8,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Fideos Frescos por 1kg', 8000)"> Agregar al Carrito </button>
         </div>
 
         <div class="product" id="pizzetas">
@@ -95,8 +93,7 @@
             <img src="img/Pizzetas.jpeg" alt="Producto 3">
             <h2>Pizzetas por media docena </h2>
             <p>Precio: $5,000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 3', 5000,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
 
         <div class="product" id="AlfajoresMaicena">
@@ -104,8 +101,7 @@
             <img src="img/AlfajoresMaicena.jpeg" alt="Producto 4">
             <h2>Alfajores de maicena por 3/U</h2>
             <p>Precio: $6,000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 4', 6000,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
 
         <div class="product" id="LemonPie">
@@ -113,8 +109,7 @@
             <img src="img/LemonPie.jpeg" alt="Producto 5">
             <h2>Lemon Pie Familiar</h2>
             <p>Precio: $25000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 5', 25000.00)">Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
 
         <div class="product" id="RoscaPascua">
@@ -122,8 +117,7 @@
             <img src="img/RoscaPascua.jpeg" alt="Producto 6">
             <h2>Rosca de Pascua</h2>
             <p>Precio: $15000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 6', 15000.00,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
 
         <div class="product" id="TortaCremaFrutillas">
@@ -131,8 +125,7 @@
             <img src="img/TortaCremaFrutillas.jpeg" alt="Producto 7">
             <h2>Torta Corazon Crema y Frutillas</h2>
             <p>Precio: $50000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 7', 50000.00,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
 
         <div class="product" id="TortaLove">
@@ -140,16 +133,15 @@
             <img src="img/TortaLove.jpeg" alt="Producto 8">
             <h2>Torta LOVE</h2>
             <p>Precio: $60000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 8', 60000.00,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
+
         <div class="product" id="TortaHeroes">
             <a href="img/TortaHeroes.jpeg"></a>
             <img src="img/TortaHeroes.jpeg" alt="Producto 9">
             <h2>Torta Heroes</h2>
             <p>Precio: $70000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 9', 70000.00,)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+        <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
     
         <div class="product" id="TortasFritas">
@@ -157,11 +149,15 @@
             <img src="img/TortasFritas.jpeg" alt="Producto 10">
             <h2>Tortas Fritas por docena</h2>
             <p>Precio: $8000.00</p>
-            <!-- <button class="add-to-cart" onclick="addToCart('Producto 10', 8000.00)"> Agregar al Carrito</button> -->
-            <a class="fab fa-whatsapp" href="https://wa.me/+5491140634257/?text=Hola Anto, quiero realizar un pedido sin gluten: " target="_blank">Realizar pedido</a>
+            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)">Agregar al Carrito</button>
         </div>
-    </div>
-</div>
+    </section>
+    <section id="cart">
+        <h2>Carrito de Compras</h2>
+        <p>Carrito vacío</p>
+      </section>
+  
+      <button id="procesarPedido" onclick="processOrder()">Procesar Pedido</button>
 </main>    
     <!-- Inormación al final de página -->
     <footer>© Todos los derechos reservados 2024.</footer>
