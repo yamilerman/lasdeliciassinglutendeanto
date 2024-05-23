@@ -5,11 +5,11 @@
   }
 
 body {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-image: url(img/fond.png);
+  background-image: url(img/fondoros.png);
   background-attachment: fixed;
   size: cover;
   position: top;
@@ -74,7 +74,7 @@ body {
   position: relative;
   top: 0px;
   background: none;
-  padding: 1rem;
+  padding:1rem;
 }
 .menu li {
   display: inline-block;

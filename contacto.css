@@ -9,6 +9,8 @@ form {
 }
 input[type="text"],
 input[type="email"],
+input[type="tel"],
+
 textarea {
   width: 100%;
   padding: 12px;
@@ -37,3 +39,16 @@ p {
   background-color: #ebb8dd;
 }
 
+<<<<<<< HEAD
+=======
+
+footer {
+  background-color: #ebb8dd; 
+  color: #000000;
+  text-align: center;
+  padding: 3px;
+  position: botoom;
+  width: 100%;
+  bottom: 0;
+}
+>>>>>>> ece5b1a3127772cd6b4075236563d2929ce76b18
