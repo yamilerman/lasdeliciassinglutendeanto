@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="img/icon-16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="img/icon-32.png" sizes="32x32">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Productos</title>
+    <link rel="icon" type="image/png" href="img/icon-16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/icon-32.png" sizes="32x32" />
     <link rel="stylesheet" href="productos.css">
     <link rel="stylesheet" href="stylegeneral.css">
-    <link rel="scripts.js" href="scripts.js">
+    <script
+    src="https://kit.fontawesome.com/d73f71b513.js"
+    crossorigin="anonymous"
+  ></script>
+    
 
 </head>
 <body>
+    <header>
+        <div class="carrousel">
+          <div class="conteCarrousel">
+            <div class="itemCarrousel" id="itemCarrousel-1">
+              <div class="itemCarrouselTarjeta">
+                <img src="img/Diseño sin título.gif" alt="" />
+              </div>
+              <div class="itemCarrouselArrows">
+                <a href="#itemCarrousel-3">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#itemCarrousel-2">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-2">
+              <div class="itemCarrouselTarjeta">
+                <img src="img/1.png" alt="" />
+              </div>
+              <div class="itemCarrouselArrows">
+                <a href="#itemCarrousel-1">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#itemCarrousel-3">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="itemCarrousel" id="itemCarrousel-3">
+              <div class="itemCarrouselTarjeta">
+                <img src="img/2.png" alt="" />
+              </div>
+              <div class="itemCarrouselArrows">
+                <a href="#itemCarrousel-2">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#itemCarrousel-1">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
     <div class="menu">
         <nav>
             <ul>
@@ -21,7 +69,9 @@
             </ul>
         </nav>
     </div>
-    <div class="titulo">
+</header>
+<main>
+    <div class="productosTitle">
         <h1>Tienda de Productos</h1>
     </div>
     <div class="box">
@@ -115,11 +165,9 @@
         </div>
     </div>
 </div>
-
-    <div class="clearfix"></div>
-    
-<!-- Inormación al final de página -->
-    <footer id="footer">© Todos los derechos reservados 2024.</footer>
+</main>    
+    <!-- Inormación al final de página -->
+    <footer>© Todos los derechos reservados 2024.</footer>
    
     <script src="scripts.js"></script>
  

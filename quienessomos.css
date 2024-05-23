@@ -1,4 +1,4 @@
-.container {
+.containerNosotros {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
@@ -6,33 +6,31 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos */
-h1 {
+.quienesSomos {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-h2 {
+.nosotrosH2 {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
-/* Párrafos */
-p {
+.parrafosNosotros {
   margin-bottom: 10px;
 }
 
-/* Listas */
-ul {
+
+.listaElegirnos{
   list-style: none;
   padding: 0;
 }
 
-ul li {
+.listaElegirnos ul li {
   margin-bottom: 5px;
 }
 
@@ -40,18 +38,7 @@ ul li {
   text-align: center;
 }
 
-/* Enlaces */
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Botón */
-.btn {
+.btnContacto {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff;
@@ -65,3 +52,4 @@ a:hover {
 .btn:hover {
   background-color: #0056b3;
 }
+
