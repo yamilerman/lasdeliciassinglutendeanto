@@ -15,14 +15,13 @@
   cursor: pointer;
   background-color: hsla(315, 71%, 27%, 0.81);
 }
-.conte h3{
-    font-size: 25px;
-    text-align: top;
-    text-align: center;
-    color: #544c53;
-    background-color: #ebb8dd;;
-    width: 50%;
-    align-items: center;
-    margin-left: 25%;
-    margin-bottom: 40px;
-    }
+.titulosComidas {
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: #ebb8dd;
+}
+
+.titulosComidas:hover {
+  background-color: #cbc6e2;
+}

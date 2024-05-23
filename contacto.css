@@ -32,23 +32,10 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #ffffff;
 }
-p {
+.parrafosIniciales {
   font-size: x-large;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   background-color: #ebb8dd;
 }
 
-<<<<<<< HEAD
-=======
-
-footer {
-  background-color: #ebb8dd; 
-  color: #000000;
-  text-align: center;
-  padding: 3px;
-  position: botoom;
-  width: 100%;
-  bottom: 0;
-}
->>>>>>> ece5b1a3127772cd6b4075236563d2929ce76b18
