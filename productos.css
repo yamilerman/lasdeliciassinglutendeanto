@@ -1,8 +1,9 @@
+.tiendaDeProductos{
+  font-size: x-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: #ebb8dd;
 
-.productosTitle {
-  justify-content: center;
-  padding: 2% 35%;
-  background-color: #f3a5c9;
 }
 .box{
   display: flex;
