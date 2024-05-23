@@ -16,7 +16,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
 .itemCarrouselTarjeta img {
   width: 100%;
   height: 300px;
@@ -93,13 +92,14 @@ body {
 .menu a:hover {
   background-color: #cbc6e2;
 }
+
 footer {
-  background-color: #ebb8dd;
+  background-color: #ebb8dd; 
   color: #000000;
   text-align: center;
   padding: 3px;
-  position: relative;
+  position: botoom;
   width: 100%;
   bottom: 0;
-  margin-top: auto;
 }
+
