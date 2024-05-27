@@ -72,85 +72,74 @@
         <h1 class="tiendaDeProductos">Tienda de Productos</h1>
     
     <section class="listaCompletaProductos">
-        <div class="product" id="tarta">
-            <a href="img/Tartas.jpeg" ></a>
+        <div class="product" data-id="1" data-name="tarta" data-price="12.800">
             <img src="img/Tartas.jpeg" alt="Tartas">
             <h2>Tarta individual x3</h2>
-            <p>Precio: $12,800.00</p>
-            <button class="add-to-cart" onclick="addToCart('Tarta individual x3', 12800)"> Agregar al Carrito </button>
-
+            <p class="precio">$12.800</p>
+            <button class="add-to-cart"> Agregar al Carrito </button>
         </div>
 
-        <div class="product" id="fideos">
-            <a href="img/Fideos.jpeg"></a>
-            <img src="img/Fideos.jpeg" alt="Producto 4">
+        <div class="product" data-id="2" data-name="fideos" data-price="8.000">
+            <img src="img/Fideos.jpeg" alt="fideos">
             <h2>Fideos Frescos por 1kg</h2>
-            <p>Precio: $8,000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Fideos Frescos por 1kg', 8000)"> Agregar al Carrito </button>
+            <p class="precio">$8.000</p>
+            <button class="add-to-cart"> Agregar al Carrito </button>
         </div>
 
-        <div class="product" id="pizzetas">
-            <a href="img/Pizzetas.jpeg"></a>
-            <img src="img/Pizzetas.jpeg" alt="Producto 3">
+        <div class="product" data-id="3" data-name="pizzetas" data-price="5.000">
+                       <img src="img/Pizzetas.jpeg" alt="pizzetas">
             <h2>Pizzetas por media docena </h2>
-            <p>Precio: $5,000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Pizzetas por media docena', 5000)">Agregar al Carrito</button>
+            <p class="precio">$5.000</p>
+            <button class="add-to-cart" >Agregar al Carrito</button>
         </div>
 
-        <div class="product" id="AlfajoresMaicena">
-            <a href="img/AlfajoresMaicena.jpeg"></a>
-            <img src="img/AlfajoresMaicena.jpeg" alt="Producto 4">
+        <div class="product" data-id="4" data-name="alfajores maicena" data-price="6.000">
+            <img src="img/AlfajoresMaicena.jpeg" alt="alfajores de maicena">
             <h2>Alfajores de maicena por 3/U</h2>
-            <p>Precio: $6,000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Alfajores de maicena por 3/U', 6000)">Agregar al Carrito</button>
+            <p class="precio">$6.000</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
         </div>
 
-        <div class="product" id="LemonPie">
-            <a href="img/LemonPie.jpeg"></a>
-            <img src="img/LemonPie.jpeg" alt="Producto 5">
+        <div class="product" data-id="5" data-name="lemon pie" data-price="25.000">
+            <img src="img/LemonPie.jpeg" alt="lemon pie">
             <h2>Lemon Pie Familiar</h2>
-            <p>Precio: $25000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Lemon Pie Familiar', 25000)">Agregar al Carrito</button>
+            <p class="precio">$25.000</p>
+            <button class="add-to-cart" >Agregar al Carrito</button>
         </div>
 
-        <div class="product" id="RoscaPascua">
-            <a href="img/RoscaPascua.jpeg"></a>
-            <img src="img/RoscaPascua.jpeg" alt="Producto 6">
+        <div class="product" data-id="6" data-name="rosca pascua" data-price="15.000">
+            <img src="img/RoscaPascua.jpeg" alt="rosca de pascua">
             <h2>Rosca de Pascua</h2>
-            <p>Precio: $15000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Rosca de Pascua', 150000)">Agregar al Carrito</button>
+            <p class="precio">$15.000</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
         </div>
 
-        <div class="product" id="TortaCremaFrutillas">
-            <a href="img/TortaCremaFrutillas.jpeg"></a>
-            <img src="img/TortaCremaFrutillas.jpeg" alt="Producto 7">
+        <div class="product" data-id="7" data-name="torta crema frutillas" data-price="50.000">
+                       <img src="img/TortaCremaFrutillas.jpeg" alt="torta de crema y frutillas">
             <h2>Torta Corazon Crema y Frutillas</h2>
-            <p>Precio: $50000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Torta Corazon Crema y Frutillas', 50000)">Agregar al Carrito</button>
+            <p class="precio">$50.000</p>
+            <button class="add-to-cart" >Agregar al Carrito</button>
         </div>
 
-        <div class="product" id="TortaLove">
-            <a href="img/TortaLove.jpeg"></a>
-            <img src="img/TortaLove.jpeg" alt="Producto 8">
+        <div class="product" data-id="8" data-name="tarta love" data-price="60.000">
+            <img src="img/TortaLove.jpeg" alt="torta love">
             <h2>Torta LOVE</h2>
-            <p>Precio: $60000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Torta LOVE', 60000)">Agregar al Carrito</button>
+            <p class="precio">$60.000</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
         </div>
 
-        <div class="product" id="TortaHeroes">
-            <a href="img/TortaHeroes.jpeg"></a>
-            <img src="img/TortaHeroes.jpeg" alt="Producto 9">
+        <div class="product" data-id="9" data-name="torta heroes" data-price="70.000">
+            <img src="img/TortaHeroes.jpeg" alt="torta heroes">
             <h2>Torta Heroes</h2>
-            <p>Precio: $70000.00</p>
-        <button class="add-to-cart" onclick="addToCart('Torta Heroes', 70000)">Agregar al Carrito</button>
+            <p class="precio">$70.000</p>
+        <button class="add-to-cart">Agregar al Carrito</button>
         </div>
     
-        <div class="product" id="TortasFritas">
-            <a href="img/TortasFritas.jpeg" ></a>
-            <img src="img/TortasFritas.jpeg" alt="Producto 10">
+        <div class="product" data-id="10" data-name="torta fritas" data-price="8.000">
+            <img src="img/TortasFritas.jpeg" alt="torta fritas">
             <h2>Tortas Fritas por docena</h2>
-            <p>Precio: $8000.00</p>
-            <button class="add-to-cart" onclick="addToCart('Tortas Fritas por docena', 8000)">Agregar al Carrito</button>
+            <p class="precio">$8.000</p>
+            <button class="add-to-cart">Agregar al Carrito</button>
         </div>
     </section>
     <section id="cart">
@@ -162,7 +151,7 @@
     <!-- Inormación al final de página -->
     <footer>© Todos los derechos reservados 2024.</footer>
 
-    <script src="scripts.js"></script>
+    <script src="app.js"></script>
 
 </body>
 </html>
