@@ -1,4 +1,4 @@
-.productosMain{
+.productosMain {
   text-align: center;
 }
 
@@ -16,15 +16,18 @@
 
 .product {
   width: 30%;
-  background-color: #f5f5f5;
+  background-color: #fff;
   padding: 3%;
-  border: 1px solid #ddd;
+  border-radius: 15px;
   margin: 10px;
   box-sizing: content-box;
+  cursor: pointer;
 }
 
 .product img {
   max-width: 100%;
+  max-height: 150px;
+  margin-bottom: 10px;
   align-self: center;
 }
 .product h2 {
@@ -36,35 +39,37 @@
   text-align: center;
 }
 .add-to-cart {
-  background-color: hsla(315, 71%, 27%, 0.81);
-  color: rgb(250, 248, 249);
+  background-color: #ebb8dd;
+  color: #000;
   padding: 8px 15px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  text-align: center;
 }
 .add-to-cart:hover {
   background-color: #cbc6e2;
 }
 
 #cart {
-  margin: 20px 0;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-#procesarPedido {
-  background-color: #3157ac; 
-  color: #fff; 
-  padding: 10px 20px; 
-  border: none;
-  border-radius: 4px; 
+  margin: 100px;
+  padding: 30px;
+  background-color: #fff;
   cursor: pointer;
-  margin: 15px  15px ;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
-#procesarPedido:hover {
-  background-color: #2c4d93; 
+.clear-cart {
+  background-color: #ebb8dd;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 15px 15px;
+}
+
+.clear-cart:hover {
+  background-color: #cbc6e2;
 }
