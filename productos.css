@@ -38,7 +38,7 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.add-to-cart {
+.hacerPedido {
   background-color: #ebb8dd;
   color: #000;
   padding: 8px 15px;
@@ -47,29 +47,11 @@
   cursor: pointer;
   text-align: center;
 }
-.add-to-cart:hover {
+.hacerPedido:hover {
   background-color: #cbc6e2;
 }
 
-#cart {
-  margin: 100px;
-  padding: 30px;
-  background-color: #fff;
-  cursor: pointer;
-  border-radius: 15px;
-  font-size: 20px;
-}
-
-.clear-cart {
-  background-color: #ebb8dd;
+.hacerPedido a {
+  text-decoration: none;
   color: #000;
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 15px 15px;
-}
-
-.clear-cart:hover {
-  background-color: #cbc6e2;
 }
